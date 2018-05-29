@@ -1,0 +1,288 @@
+ <!doctype html>
+<html lang="en">
+
+    <!--Muss später am server eine php datei sein damit das geht -->
+    <?php include('conn.php'); ?>
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+        <!-- user-scalable für mobile devices -->
+        <meta name="description" content="...">
+        <meta name="author" content="...">
+        <title>MedAusbild</title>
+
+
+        <!-- Bootstrap core CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+		
+	
+		
+
+        <link href="css/style2.css" rel="stylesheet">
+
+     
+
+
+    </head>
+
+    <body id="home" style="background-color: #EAE6FC;">
+        <!-- _______________________________________NavBar_____________________________________________________-->
+
+         <nav class="navbar-default navbar-fixed-top" role="navigation">
+            <!-- role für browser zur                                                                            erkennung-->
+            <div class="container">
+                <div class="navbar-header ">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                         <span class="sr-only">Toggle navigation</span>
+                         <span class="icon-bar"></span>
+                         <span class="icon-bar"></span>
+                         <span class="icon-bar"></span>
+                        <!-- erzeugen die 3 striche-->
+                    </button>
+                     <a class="navbar-brand" href="#home">MedAusbild</a> 
+                    <!-- Titel der Navbar-->
+                </div>
+
+                <div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="menuItem"><a href="#...">Diagnose</a>
+                        </li>
+                        <li class="menuItem"><a href="#...">Quiz</a>
+                        </li>
+                        <li class="menuItem"><a href="#...">Checker</a>
+                        </li>
+
+                        <li class="menuItem"><a href="#...">Classroom</a>
+                        </li>
+                        <li class="menuItem"><a href="#...">Forum</a>
+                        </li>
+                        <li class="menuItem"><a href="#contact">Kontakt</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!--container-->
+        </nav>
+        <!-- ________________________________________________________________________________________________________ -->
+
+
+        <!-- _________________________Content________________________________-->
+        <br>
+        <br>
+
+        <!-- every content should be nested in a way like the example below  -->
+
+        <!-- nested columns -->
+
+        <div class="row first-after-navbar ">
+            <form>
+                <!-- first nested column -->
+				<div class="container-fluid">
+					<div class="row"> 
+			  			<div class=" col-md-12" >
+			  						<div class="col-md-2" style=" text-align: center; top: 50%;">
+			  							<img  src="Fotos/log.png" alt=" logo1" style=" width: 100%; " />
+			  						</div>
+
+			  						<div class=" col-md-8">
+			  						<div id="my-slider" class="carousel slide" data-ride="carousel">
+										<ol class=" carousel-indicators" >
+											<li data-target=" #my-slider" data-slide-to="0" class="active"></li>
+											<li data-target=" #my-slider" data-slide-to="1"></li>
+											<li data-target=" #my-slider" data-slide-to="2"></li>
+											<li data-target=" #my-slider" data-slide-to="3"></li>		
+										</ol>
+									<div class="carousel-inner" role=" listbox ">
+										<div class="item active">
+											<img  src="Fotos/D3.jpg" alt=" images3" style=" width: 100%;" />
+											<div class="carousel-caption">
+												<h1>Wissen</h1>
+											</div>
+										</div>
+										
+										<div class="item 1">
+											<img  src="Fotos/D2.jpg" alt=" images2" style="width: 100%; " />
+											<div class="carousel-caption">
+												<h1>Entdecken</h1>
+											</div>
+										</div>
+
+										<div class="item 2 ">
+											<img  src="Fotos/D1.jpg" alt=" images1" style="width: 100%; "/>
+											<div class="carousel-caption">
+												<h1>Untersuchen</h1>
+											</div>
+										</div>
+										<div class="item 3 ">
+											<img  src="Fotos/D4.jpg" alt=" images4" style="width: 100%; "/>
+											<div class="carousel-caption">
+												<h1>Neugierig</h1>
+											</div>
+										</div>
+									</div>
+											
+													<a class="left carousel-control" href="#my-slider" role="button" date-slide="prev">
+														<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+														<span class="sr-only">Previous</span>
+													</a>
+													<a class="right carousel-control" href="#my-slider" role="button" date-slide="next">
+														<span class="glyphicon glyphicon-chevron-right" aria hidden=" true" ></span>
+														<span class="sr-only">Next</span>
+													</a>
+
+								</div>	
+			  					
+			  				</div>	
+			  						<div class=" col-md-2">
+			  							
+			  						</div>
+						</div>
+					</div>
+				</div>	
+			 </form>
+        </div>
+
+		<br>
+		<br>
+		<br>
+
+						<div class=" container-fluid">
+
+						<div class="row" style="text-align: center; margin-right: 10px; margin-left:10px; ">
+									<div class="col-sm-3" >
+										<div>
+										<a href=" https://www.youtube.com">
+										<img src="Fotos/thebraingif.gif" alt="avatar" class="avatar"  style="  vertical-align: middle;  width: 200px;height: 125px; border-radius: 70%;">
+											  <div class="caption">	
+											  	<p2> <strong> brain </strong> </p2>
+											  	</div>
+											</a> 
+										</div>
+									</div>
+									<div class="col-sm-3">
+											<div>
+											<a href="https://www.youtube.com">
+											  <img src="Fotos/heart.gif" alt="..........." style=" vertical-align: middle;  width: 125px;height: 125px; border-radius: 70%; width:70%" >
+											  <div class="caption">	
+											  	<p2 > <strong> heart </strong> </p2>
+											  	</div>
+											</a> 
+										</div>
+									</div>
+
+									<div class="col-sm-3">
+											<div>
+											<a href="https://www.youtube.com">
+											  <img src="Fotos/lungs.gif" alt="..........." style=" vertical-align: middle;  width: 125px;height: 125px; border-radius: 100%; width:70%" >
+											  <div class="caption">	
+											  	<p2> <strong> lungs </strong> </p2>
+											  	</div>
+											</a> 
+										</div>
+									</div>
+
+									<div class="col-sm-3">
+										<div>
+											  <a href="https://www.youtube.com">
+											  <img src="Fotos/kidney.jpg" alt="..........." style=" vertical-align: middle;  width: 125px;height: 125px; border-radius: 100%; width:70%" >
+											  <div class="caption">	
+											  	<p2> <strong> kindey </strong> </p2>
+											  	</div>
+											</a> 
+										</div>
+									</div>	
+								</div>
+							</div>
+						<br>
+						<br>	
+						<br>
+							
+								
+								
+							
+						<div class=" container-fluid">
+							
+							<div class="row">
+								
+									<div class="col-md-4" style=" text-align: center;"><h3> article concernant </h3></div>
+									<div class="col-md-4" style="text-align: center;"><h3 > uni siegen </h1></div>
+									<div class="col-md-4" style="text-align: center;"><h3> par raport a la medecine</h1></div>
+
+							</div>
+						</div>
+
+
+						<br>
+						<br>	
+						<br>
+
+									<div class=" container-fluid">
+										<div class="row" style=" margin-left: 10px; margin-right: 10px; text-align: justify; padding-top: 15px">
+												<div class="col-md-4">
+														<h1>  demenz: </h1>
+														
+											<p1>Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+											sed do eiusmod tempor incididunt ut labore 
+											et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+											laboris nisi ut aliquip ex ea commodo consequat 
+											<span style="color: red;font-weight:bold">Weiterlesen....</span></p1>
+												</div>
+												<div class="col-md-4">
+														<h1> Innovation in the .....:</h1>
+														
+											<p1>Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+											sed do eiusmod tempor incididunt ut labore 
+											et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+											laboris nisi ut aliquip ex ea commodo consequat.
+											<span style="color: red;font-weight:bold">Weiterlesen....</span></p1>
+												</div>	
+												<div class="col-md-4">
+														<h1> Artikel: </h1>
+														
+											<p1>Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+											sed do eiusmod tempor incididunt ut labore 
+											et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+											laboris nisi ut aliquip ex ea commodo consequat.
+											<span style="color: red;font-weight:bold">Weiterlesen....</span></p1>
+												</div>	
+										</div>
+									</div>
+					
+				<br>
+				
+				<br>
+
+                <!-- second nested column -->
+                <div class="col-md-12">
+                    <!-- column content -->
+                    <button type="button" id="berechnen">TestButton</button>
+                </div>
+
+                <!-- third nested column -->
+                <div class="col-md-12">
+                    <label> <output id="output-textarea"></output></label>
+                </div>
+           
+		<footer class="row" style=" text-align: center;"> 
+
+					 <p1> © 2018 MedAusbild. All Rights Reserved. </p1>
+
+
+			
+				</footer>
+        <!--____________________________________________________________________________________________________-->
+
+
+        <!-- Scripts -->
+        <script src="js/german-porter-stemmer.js"></script>
+        <script src="js/stopWords.js"></script>
+        <script src="js/jquery-2.2.2.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/script.js"></script>
+        <script src="js/code.js"></script>
+        
+
+    </body>
+
+</html>
